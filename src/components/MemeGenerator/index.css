@@ -1,0 +1,38 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+.meme-heading {
+  color: #35469c;
+  font-family: 'Open Sans';
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.input-label {
+  color: #7e858e;
+  font-family: 'Open Sans';
+}
+.input {
+  height: 50px;
+  width: 250px;
+  border: 1px solid #5a7184;
+  border-radius: 1px;
+  margin-top: 0px;
+  color: #5a7184;
+}
+.generate-btn {
+  border-width: 0;
+  border-radius: 10px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+}
